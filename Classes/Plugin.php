@@ -39,7 +39,7 @@ class Plugin extends AbstractPlugin
         return $this->config[$key];
     }
 
-    public function getPluginPath($sub = '')
+    public function getPluginPath(string $sub = ''): string
     {
         return parent::getPluginPath($sub);
     }
